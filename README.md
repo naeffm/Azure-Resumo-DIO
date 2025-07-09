@@ -29,3 +29,14 @@ Benefícios da nuvem:
         99,95% representa 5 minutos por semana | 21,6 minutos mês | 4,38 horas ano
         99,99% 1,01 minuto por semana | 4,32 minutos mês | 52,56 minutos ano
         99,999% 6 segundos por semana | 25,9 segundos mês | 5,26 minutos ano
+
+DIA 2
+
+Tipos de Serviço de Nuvem na Azure
+
+-> IAAS (Infraestrutura como serviço): Aonde o cliente se envolve mais, alugando maquinas virutias, servidores, armazenamento.
+
+-> PAAS (Plataforma como serviço): Quando se quer apenas o banco de dados por exemplo, o cliente quer apenas um ambiente para criação, sem focar no gerenciamento da infraestrutura.
+
+-> SAAS (Software como serviço): Usuarios se conectam e usam aplicativos alocado na nuvem pela internet exemplo: Microsoft Office 365, email, calendarios.
+
