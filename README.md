@@ -24,3 +24,8 @@ Benefícios da nuvem:
 
 -> Gerenciabilidade: Capacidade de gerenciamento como, por exemplo, escalar automaticamente a implantação de recursos (usando APIs e PowerShell)
 
+-> Sla: 99% representa inatividade por 1,68 hora por semana | 7,2 horas no mês | 3,65 dias por ano
+        99,9% repesenta 10,1 minutos por semana | 43,2 minutos mês | 8,76 horas ano
+        99,95% representa 5 minutos por semana | 21,6 minutos mês | 4,38 horas ano
+        99,99% 1,01 minuto por semana | 4,32 minutos mês | 52,56 minutos ano
+        99,999% 6 segundos por semana | 25,9 segundos mês | 5,26 minutos ano
