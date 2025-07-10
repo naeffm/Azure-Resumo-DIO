@@ -40,3 +40,24 @@ Tipos de Serviço de Nuvem na Azure
 
 -> SAAS (Software como serviço): Usuarios se conectam e usam aplicativos alocado na nuvem pela internet exemplo: Microsoft Office 365, email, calendarios.
 
+DIA 3 
+
+Componentes de Arquitetura do Azure
+
+-> Regiões: Cada região pode ter vários datacenters para garantir redundância e disponibilidade.
+
+-> Zona de disponibilidade: Uma Zona de Disponibilidade é composta por um ou mais datacenters. Caso uma zona falhe, outra zona pode assumir o tráfego sem impacto para o cliente.
+
+-> Pares de Regiões: Minimo de 300 milhas de distancia entre os pares, replicação automática para alguns serviços, recuperação de região priorizada em casos de interrupção 
+
+-> Azure na china: 21Vianet o nome.
+
+-> Grupo de Recursos: Conjunto aonde se localiza o Banco de dados, VMs, armazenamento. Voce agregaos recursos em uma unica unidade. Os recursos podem existir em apenas um grupo de recursos, os recursos podem existir em diferentes regiões. Podem ser movidos para diferentes GR. Os aplicativos podem utilizar varios grupos de recursos.
+
+-> Assinatura do Azure: Uma Assinatura do Azure representa uma conta com uma fatura separada para os recursos consumidos. Uma conta pode ter várias assinaturas, sendo que cada uma pode estar associada a um ambiente específico (produção, desenvolvimento, etc.). As assinaturas podem ser associadas a um único diretório do Azure Active Directory e são o principal ponto de cobrança e controle de custos dos recursos. Embora cada assinatura tenha seu próprio conjunto de recursos, elas são usadas em conjunto com Grupos de Recursos para organizar o uso de recursos.
+
+-> Grupos de Gerenciamento: São usados para organizar várias assinaturas em uma estrutura hierárquica, permitindo o controle centralizado sobre elas. Isso ajuda a aplicar políticas de governança, controle de acesso e limites de custo de forma mais eficiente em larga escala.
+
+
+
+
