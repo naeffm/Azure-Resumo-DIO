@@ -81,4 +81,8 @@ Usando um Availability Set, o Azure espalha suas VMs automaticamente em diferent
 
 -> Azure Functions: Oferta do PaaS, O código baseado em eventos é executado quando chamado, sem exigir uma infraestrutura de servidor durante preiodos inativos.
 
+-> Serviço de aplicativos: Plataforma totalmente gerenciada para criar, implantar e dimensionar aplicativos Web e APis. .NET, Node.js, Java, Python. OFERTA DO PAAS.
 
+-> Gateway de VPN: Enviar trafego criptografado entre uma rede virtual do azure e uma no local pela internet publica.
+
+-> Express Route: Uma conexão via cabo que vai direto da empresa até o servidor do azure. CARO DEMAIS
