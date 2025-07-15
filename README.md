@@ -58,6 +58,27 @@ Componentes de Arquitetura do Azure
 
 -> Grupos de Gerenciamento: São usados para organizar várias assinaturas em uma estrutura hierárquica, permitindo o controle centralizado sobre elas. Isso ajuda a aplicar políticas de governança, controle de acesso e limites de custo de forma mais eficiente em larga escala.
 
+DIA 4
 
+Serviços de computação do Azure
+
+-> Computação do Azure: Serviço sob demanda que fornece recursos de computação, como VMs, Conteiner Instâncias, Area de trabalho remota*.
+
+-> Máquinas Virtuais do Azure: Emulações de software de computadores fisicos.
+
+-> Conjuntos de dimensionamento de VMs: Oferecem balanceamento de carga para dimensionar os recursos automaticamente.
+
+-> Conjuntos de Disponibilidade de VM: 
+        Dominio de falha 0 -> 3 VMs
+        Dominio de falha 1 -> 3 VMs
+        Dominio de falha 2 -> 3 Vms
+        
+Usando um Availability Set, o Azure espalha suas VMs automaticamente em diferentes servidores físicos, racks, e fontes de energia dentro do mesmo datacenter. Assim, se uma falhar, a outra continua funcionando.
+
+-> Area de trabalho Virtual: Um ambiente completo de virtualização da Área de trabalho sem precisar executar outros servidores de Gateway, o funcionario só precisa esta conectado a internet.
+
+-> Contêineres: Quando você usa VMs, você precisa subir um sistema operacional inteiro (tipo um Windows ou Linux), instalar as dependências, e aí sim rodar seu programa. Mas com containers você pula essa parte. Eles rodam só o seu programa, com as dependências mínimas, usando o sistema do host que já tá rodando.
+
+-> Azure Functions: Oferta do PaaS, O código baseado em eventos é executado quando chamado, sem exigir uma infraestrutura de servidor durante preiodos inativos.
 
 
