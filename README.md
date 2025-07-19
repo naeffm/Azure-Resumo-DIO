@@ -86,3 +86,21 @@ Usando um Availability Set, o Azure espalha suas VMs automaticamente em diferent
 -> Gateway de VPN: Enviar trafego criptografado entre uma rede virtual do azure e uma no local pela internet publica.
 
 -> Express Route: Uma conexão via cabo que vai direto da empresa até o servidor do azure. CARO DEMAIS
+
+DIA 5
+
+Identidade, Acesso e Segurança
+
+-> Microsoft entra ID: Gerenciamento de identidade na Azure, quem faz a autentificação da conta.
+
+-> B2B Negocios para Negocios: igual quando logamos com o google em outros sites.
+
+-> Dominio gerenciado (Domain Services): O Entra Domain Services conecta as VMs da nuvem ao login da empresa, sem precisar instalar um Active Directory manualmente.
+
+-> Acesso Condicional: Local do ip, dispositivo, aplicativo, detecção de risco.
+
+-> Controle de acesso baseado em Função (RBAC): Gerenciamento de acesso de granularidade fina, só autoriza o que voce realmente precisa.
+
+-> Confiança zero: Sempre vai supor qeu algo foi violado.
+
+-> Defender for cloud: monitora e protege contra ameças nos datacenters do Azure Locais.
