@@ -104,3 +104,27 @@ Identidade, Acesso e Segurança
 -> Confiança zero: Sempre vai supor qeu algo foi violado.
 
 -> Defender for cloud: monitora e protege contra ameças nos datacenters do Azure Locais.
+
+DIA 6 
+
+Dominando o Armazenamento na Azure
+
+-> Nome de conta de armazenamento: deve ser unico no MUNDO
+
+-> Standard ou Premium: Standard para uso geral, Premium para baixa latência. 
+
+-> LRS, GRS, ZRS, GZRS: LRS - Replicação local, 3 copias dos dados.
+                        GRS - Replicação entre regiões (Primária e secundaria a centenas de km), 3 cópias na região Pri, 3 cópias na regiao secundaria.
+                        ZRS - Replicação em zonas de disponibilidade (Na mesma região), 1 cópia em 3 data centeres diferentes mas na mesma região.
+                        GZRS - junta o ZRS  e LRS.
+
+
+
+
+
+
+
+
+
+
+
