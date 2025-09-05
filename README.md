@@ -118,9 +118,16 @@ Dominando o Armazenamento na Azure
                         ZRS - Replicação em zonas de disponibilidade (Na mesma região), 1 cópia em 3 data centeres diferentes mas na mesma região.
                         GZRS - junta o ZRS  e LRS.
 
+Dia 7 
 
+-> Azure Policy: Padroes organizacionais,regulatoria, segurança, custos e gerenciamento
 
+-> Bloqueio de Recursos: Protege os recursos, gerencia bloqueios e assinaturas.
+                excluir: pode ler, atualizar, não pode excluir
+                Read Only: pode ler, nao pode atualizar, nao pode excluir        
+                -> podem atribuidos em um resource groups ou em uma propria aplicação.
 
+-> Microsoft preview: Reune insights sobre seus dados locais, solução de governança, risco e conformidade.
 
 
 
